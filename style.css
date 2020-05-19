@@ -1,18 +1,23 @@
-body {
-    background: #E8C5C5;
-    margin-left: 100px;
-    margin-right: 200px;
-    
+.navbar {
+    background-color:#F8E6E0;
+    padding-bottom: 10px;
 }
 
-header {
-     margin-top: 70px;   
-
+.nav-item {
+    margin-left: 30px;
+    font-size: large;
+    color: blue;
+}
+header { 
+     padding-top: 70px;
+     background-color: #F8ECE0; 
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .img_padrao {
     margin-bottom: 20px;
-    width: 300px;
+    width: 200px;
 }
 
 h1 {
@@ -22,10 +27,20 @@ h1 {
 
 h2 {
     font-family: fantasy;
-
+    color: red;
 }
 
 p {
     font-size: 18px;
 
+}
+
+
+footer {
+    background-color: #F7F8E0;
+    padding-top: 20px;
+}
+
+section {
+    background-color: #F7F2E0;
 }
